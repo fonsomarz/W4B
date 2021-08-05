@@ -46,6 +46,28 @@ a:hover, a:active {
     color: aliceblue;
 }
 
+#AllVideos{
+        margin-top: 52px;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 5px;
+        -moz-column-count: 3;
+        -moz-column-gap: 5px;
+        column-count: 3;
+        padding-bottom: 125px;
+        text-align: center;
+}
+
+#AllVideos iframe {
+    width: 560 !important;
+    height: 315 !important;
+    margin-bottom:5px;
+    border-radius: 5px;
+ }
+
+#AllVideos iframe:hover {
+    filter: opacity(75%);
+ }
+
 
 .container {
     position: fixed;
